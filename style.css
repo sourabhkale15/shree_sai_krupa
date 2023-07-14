@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* <!---------------------------------------------- header-------------------------------------------------> */
+
+header {
+    height: 100px;
+    background-color: #d6f8b8;
+    width: 100%;
+    
+    /* position: sticky;
+top: 0px; */
+}
+
+header p {
+
+    width: 500px;
+    display: inline-block;
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+header p a {
+    text-decoration: none;
+    color: orange;
+}
+
+header img {
+
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    text-decoration-line: none;
+}
+ .pic{
+    width: 450px;
+    height: 104px;
+}
+
+/* <!---------------------------------------------- header-------------------------------------------------> */
+
+/* <!------------------------------------------------ navigation bar-------------------------------------------------> */
+
+nav {
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    height: 40px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+/* <!------------------------------------------------ navigation bar-------------------------------------------------> */
+
+body {
+    background-color: #acdeaa;
+    background-image: url();
+    background-position: center;
+    width: 100%;
+
+}
+
+/* <!--------------------------------------------------- image-------------------------------------------------> */
+
+.middlespace {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    color: greenyellow;
+    position: relative;
+}
+
+.middlespace img {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.right {
+    position: absolute;
+    top: 10px;
+    padding-left: 1000px;
+}
+
+/* <!--------------------------------------------------- image-------------------------------------------------> */
+
+
+/* <!--------------------------------------------------- product list-------------------------------------------------> */
+
+.productlist ul {
+    color: red;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.productlist ul li {
+
+    padding: 10px;
+    border-top: 2px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+
+.productlist ul li ul {
+    color: green;
+    list-style: none;
+    font-size: 20px
+}
+
+.productlist a {
+    text-decoration: none;
+}
+
+.productlist {
+    margin-left: 4px;
+    margin-top: 10px;
+    border-style: outset;
+    width: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: greenyellow;
+position: sticky;
+top: 0px;
+/* top: 103px; */
+scroll-padding-bottom:410px ;
+
+ 
+
+}
+html{
+    scroll-padding-bottom:410px ;
+}
+.productlist ul li ul a {
+    color: green;
+}
+
+.sub {
+    position: absolute;
+    background-color:  #f3e99f;
+    width: 180px;
+    opacity: 0;
+}
+
+.sub li {
+    color: white;
+}
+
+.productlist ul li:hover .sub {
+    opacity: 1;
+    position: relative;
+    background-color: #f3e99f ;
+}
+
+.subsub {
+    background-color: #f7d060;
+    color: green;
+    position: absolute;
+    width: 170px;
+    visibility: hidden;
+}
+
+.subsub li {
+    margin: 0%;
+}
+
+.productlist ul li .sub li:hover .subsub {
+    visibility: visible;
+    position: relative;
+}
+
+
+/* <!--------------------------------------------------- product list-------------------------------------------------> */
+
+/* <!--------------------------------------------------- shoping card-------------------------------------------------> */
+
+
+.card {
+    border-style: solid;
+    width: 250px;
+    background-color: #8fbbaf;
+    padding: 5px;
+    margin: 12px;
+    display: inline-block;
+    height: 4in;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.row {
+    border-style: outset;
+    border-color: greenyellow;
+    width: 84%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    height: 20px;
+    margin-top: 20px;
+
+}
+
+.card p {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+/* <!--------------------------------------------------- shoping card-------------------------------------------------> */
+
+
+
+/* <!--------------------------------------------------- bottom-------------------------------------------------> */
+
+
+.bottom {
+    width: 100%;
+    height: 410px;
+    background-color: #6b7b8e;
+    clear: both;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: outset solid;
+    border-color: gray;
+    margin: 0px;
+    
+}
+
+.bottom a {
+    text-decoration-line: none;
+    color: rgb(152, 152, 201);
+}
+
+.one {
+    color: rgb(152, 152, 201);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.two {
+    margin-top: 94px;
+    /* background-color: black; */
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: rgb(152, 152, 201);
+    width: 100%;
+    padding-top: 10px;
+    
+}
+
+.two .three {
+  float: right;
+}
+.three i{
+    font-size: 25px;
+    color: rgb(152, 152, 201);
+    padding: 5px;
+    margin-bottom: 10px;
+   background-color: black;
+}
+
+/* .three
+{ padding: 5px;
+ padding-left: 985px;
+display: inline-block;
+font-size: 30px;
+
+margin: 0px;
+} */
+.fa-arrow-up {
+    float: right;
+    font-size: 30px;
+}
+
+.four {
+    text-align: center;
+}
+
+.nono {
+    text-align: center;
+    margin: 10px;
+}
+
+.two a {
+    padding: 5px;
+}
+
+/* <!--------------------------------------------------- bottom-------------------------------------------------> */
