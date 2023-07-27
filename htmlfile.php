@@ -36,8 +36,12 @@ error_reporting(0);
         </header>
         <!-- image  -->
         <div class="middlespace">
+              <marquee  behavior="alternate" direction="left">
             <img src="\milk shop/project/back.jpg">
             <div class="right"> few clicks is all it takes</div>
+                       <img src="\milk shop\project\co.jpg"> 
+          <img src="\milk shop\project\71_full.jpg"> 
+    </marquee>
         </div>
         <!--  --product list  ---->
         <div class=" productlist">
