@@ -1,1 +1,2 @@
 # shree_sai_krupa
+the process of creating an e-commerce website or using online tools to make a traditional retail location more visible online. This change enables the store to promote and offer its goods or services to a larger clientele outside of its physical location. The store might possibly access a global market by establishing an online presence, attracting clients who prefer shopping online, and providing convenient browsing and purchasing alternatives.
